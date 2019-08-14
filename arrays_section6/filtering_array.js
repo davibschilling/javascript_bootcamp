@@ -13,7 +13,7 @@ const notas = [{
 // })
 // console.log(filteredNotas)
 
-
+// Filtrando com o include
 const findNotas = function(notas, query){
 	return notas.filter(function(nota, index){
 		const isTitleMatch = nota.title.toLowerCase().includes(query.toLowerCase())
